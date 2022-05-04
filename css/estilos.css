@@ -22,10 +22,6 @@ footer {
     footer div img {
       width: 24px; }
 
-@media (max-width: 768px) {
-  #formul {
-    width: 100%; } }
-
 #formul {
   padding: 20px 0px 0px 30px;
   /* margen con valores: arriba - derecha - abajo - izquierda */
@@ -72,6 +68,12 @@ footer {
 #b_submit {
   margin: -25px 0px 0px 380px;
   /* margen con valores: arriba - derecha - abajo - izquierda */ }
+
+@media (max-width: 678px) {
+  #formul {
+    width: 100%; }
+    #formul .campos {
+      width: 100%; } }
 
 body {
   background-color: linear-gradient 70deg, #5debb9, #8ce4db; }
