@@ -1,5 +1,3 @@
-
-
     #formul { 
         padding: 20px 0px 0px 30px;   /* margen con valores: arriba - derecha - abajo - izquierda */
         font-family:verdana,arial;
@@ -9,6 +7,7 @@
         width: 600px;
         box-sizing: border-box;
         margin-top: 30px;
+    
     } 
     
     .campos { 
@@ -19,6 +18,7 @@
         border: 1px dotted red;        /* color del borde puede ser solid ó dotted */  
         background-color:#c5c527;    /* color del fondo */  
         box-sizing: border-box;
+        
     } 
     
     .boton{
