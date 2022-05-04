@@ -1,0 +1,41 @@
+footer { 
+    display:flex;
+    margin-top: 20px ;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: row;
+
+    div {
+            text-align: center;
+
+            p {
+                align-self: flex-start;
+            }
+            
+            ol{
+                list-style: none;
+                
+
+                li {
+                    display: inline;
+                    font-weight: bold;
+                     
+                    a {
+                        text-decoration: none;
+
+                        &:hover {
+                            font-weight:lighter;
+                            background-color: burlywood;
+                        }
+
+
+                    }
+                }
+            }
+
+            img {
+                width: 24px; 
+            }
+    }
+}
+

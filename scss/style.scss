@@ -1,0 +1,27 @@
+@import "footer";
+@import "formulario";
+
+body {
+    background-color: linear-gradient (70deg, rgb(93, 235, 185), rgb(140,228,219) );
+}
+.shadow {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.name {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.presentacion {
+    font-family: 'Domine', serif;
+}
+
+.noticia {
+    font-family: 'Noticia Text', serif;
+}
+
+.logotipo {
+    width: 80px;
+}
+
