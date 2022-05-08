@@ -93,3 +93,7 @@ body {
 
 .logotipo {
   width: 80px; }
+
+main {
+  min-height: 100vh;
+  margin-top: 10px; }
